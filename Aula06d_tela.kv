@@ -1,0 +1,23 @@
+GridLayout:
+    cols: 1
+
+    Label:
+        id: resultado
+        text: "Cotação: "
+        font_size: 32
+
+    Button:
+        text: "Dólar"
+        on_press: app.mostrar_cotacao('USD')
+
+    Button:
+        text: "Euro"
+        on_press: app.mostrar_cotacao('EUR')
+
+    Button:
+        text: "Bitcoin"
+        on_press: app.mostrar_cotacao('BTC')
+
+    Button:
+        text: "Ethereum"
+        on_press: app.mostrar_cotacao('ETH')
